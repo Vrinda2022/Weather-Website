@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.9;
+}
+
+.inputs {
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(224, 190, 222, 0.816);
+    height: 150px;
+    border-radius: 8px;
+    opacity: 0.9;
+}
+
+.inputs input[type="text"] {
+    height: 4rem;
+    width: 20rem;
+    background: #212121;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #473939;
+    border-radius: 3px;
+    margin-bottom: 10px; /* Use margin-bottom for spacing */
+    color: white; /* Make text readable on dark background */
+    opacity: 0.9; /* Reduced opacity */
+}
+
+.inputs input[type="submit"] {
+    height: 3rem;
+    width: 6rem;
+    background: #270aca;
+    font-weight: bold;
+    color: white;
+    font-size: 1rem;
+    margin-top: 10px; /* Adjusted margin for better spacing */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease; /* Added color transition */
+    opacity: 0.9; /* Reduced opacity */
+}
+
+.inputs input[type="submit"]:hover {
+    background: cyan; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
+
+.inputs input[type="submit"]:hover {
+    background: #1a069b;
+}
+
+.display {
+    text-align: center;
+    width: 100%;
+    max-width: 520px;
+    margin: 0 auto;
+    color: #16a816;
+}
+
+.wrapper {
+    background-color: rgba(172, 189, 221, 0.8); /* Reduced opacity */
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 8px;
+    padding: 20px; /* Added padding for better content spacing */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.9; /* Reduced opacity */
+}
+
+.wrapper h2 {
+    padding: 5px 0;
+    text-align: center;
+    background: rgba(5, 72, 181, 0.9); /* Reduced opacity */
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.wrapper p {
+    margin: 20px 50px;
+    text-align: left;
+    color: #04214c;
+    font-size: 23px;
+}
+
+.wrapper h2 span {
+    font-size: 26px;
+    color: #9beefb;
+}
+
+.wrapper p span {
+    color: #5e0df4;
+    font-size: 25px;
+    opacity: 0.9; /* Reduced opacity */
+}
